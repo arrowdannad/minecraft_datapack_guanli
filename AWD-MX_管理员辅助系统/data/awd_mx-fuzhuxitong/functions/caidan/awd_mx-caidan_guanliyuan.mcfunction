@@ -1,0 +1,6 @@
+tellraw @a[scores={awd_mx-caidan=3,awd_mx-guanli=1}] ["",{"text":"----------------------------------------","color":"yellow"}]
+tellraw @a[scores={awd_mx-caidan=3,awd_mx-guanli=1}] ["",{"text":"|","color":"green"},{"text": "添加[玩家]管理员","color": "yellow","clickEvent": {"action": "run_command","value": "/scoreboard players set @a[distance=..1] awd_mx-guanli 4"}}]
+tellraw @a[scores={awd_mx-caidan=3,awd_mx-guanli=1}] ["",{"text":"|","color":"green"},{"text": "添加[普通]管理员","color": "yellow","clickEvent": {"action": "run_command","value": "/scoreboard players set @a[distance=..1] awd_mx-guanli 3"}}]
+tellraw @a[scores={awd_mx-caidan=3,awd_mx-guanli=1}] ["",{"text":"|","color":"green"},{"text": "添加[超级]管理员","color": "yellow","clickEvent": {"action": "run_command","value": "/scoreboard players set @a[distance=..1] awd_mx-guanli 2"}}]
+tellraw @a[scores={awd_mx-caidan=3,awd_mx-guanli=1}] ["",{"text":"|","color":"green"},{"text": "删除管理员","color": "yellow","clickEvent": {"action": "run_command","value": "/scoreboard players set @a[distance=..1] awd_mx-guanli 0"}}]
+tellraw @a[scores={awd_mx-caidan=3,awd_mx-guanli=1}] ["",{"text":"----------------------------------------","color":"yellow"}]

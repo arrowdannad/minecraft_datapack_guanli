@@ -1,0 +1,23 @@
+{
+	"pack": {
+		"pack_format": 9,
+		"description": [
+			{
+				"text":"名称：管理员辅助系统",
+				"color":"#FFCCFF"
+			},
+			{
+				"text":"\n此包版本：V1.1",
+				"color":"white"
+			},
+			{
+				"text":"\n游戏版本：1.18.2",
+				"color":"white"
+			},
+			{
+				"text":"\n作者：阡溟晓雪",
+				"color":"#66CCFF"
+			}
+		]
+	}
+}
