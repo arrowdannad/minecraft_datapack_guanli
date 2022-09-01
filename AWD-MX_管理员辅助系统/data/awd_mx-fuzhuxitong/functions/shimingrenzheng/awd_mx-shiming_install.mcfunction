@@ -16,4 +16,4 @@ tp @a[scores={awd_mx-shiming_nianling=0}] 0.5 -62.5 0.5
 #在线控制
 function awd_mx-fuzhuxitong:shimingrenzheng/awd_mx-shiming_zaixiankongzhi
 #调用认证弹窗
-execute at @a[scores={awd_mx-shiming_nianling=..6}] run function awd_mx-fuzhuxitong:shimingrenzheng/awd_mx-shiming_tanchuang
+execute at @a[scores={awd_mx-shiming_nianling=0..6}] run function awd_mx-fuzhuxitong:shimingrenzheng/awd_mx-shiming_tanchuang

@@ -12,3 +12,4 @@ tellraw @a[scores={awd_mx-caidan=2,awd-guanli=3..}] ["",{"text":"| ","color":"gr
 tellraw @a[scores={awd_mx-caidan=2,awd-guanli=3..}] ["",{"text":"| ","color":"green"},{"text": "生存模式","color": "yellow","clickEvent": {"action": "run_command","value": "/trigger awd_mx-guanli_moshi set 0"}}]
 tellraw @a[scores={awd_mx-caidan=2,awd-guanli=3..}] ["",{"text":"----------------------------------------","color":"yellow"}]
 scoreboard players enable @a awd_mx-guanli_moshi
+scoreboard players set @a[scores={awd_mx-caidan=2}] awd_mx-caidan 0

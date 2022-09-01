@@ -1,3 +1,4 @@
+tellraw @a ["",{"text": "[管理辅助系统] AWD_MX 辅助系统正在关闭","color": "red"}]
 #菜单计分板
 function awd_mx-fuzhuxitong:caidan/awd_mx-caidan_uninstall
 #管理员计分板
@@ -13,4 +14,4 @@ scoreboard objectives remove awd_mx-register
 
 #事务钩子处理
 tellraw @a ["",{"text": "[管理辅助系统] AWD_MX 辅助系统已关闭","color": "red"}]
-datapack disable "AWD-MX_管理员辅助系统"
+datapack disable "file/AWD-MX_管理员辅助系统"
